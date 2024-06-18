@@ -13,7 +13,7 @@ class Array2D:
     def numCols(self):
        return len(self.content[0])
 
-     # Affiche le contenu du tableau
+    # Affiche le contenu du tableau
     def print(self):
         for i in range(self.numRows()):
                  print(self.content[i])
@@ -30,6 +30,7 @@ class Array2D:
         col = key[1]
         assert row >= 0 and row < self.numRows() and col >= 0 and col <= self.numCols() , "Nombre d'indices du tableau non valide."
         self.content[row][col] = val
+    
     def __getitem__(self, key):
         assert len(key)==2, "Nombre d'indices du tableau non valide."
         row = key[0]

@@ -38,6 +38,8 @@ class Array1D :
     def __str__(self):
         # Retourne une représentation en chaîne formatée des décimaux
         return "[" + ", ".join(f"{d:.2f}" for d in self._elements) + "]"
+    
+    
 
 # Un iterateur pour la structure de tabeleau
 class _ArrayIterator :
