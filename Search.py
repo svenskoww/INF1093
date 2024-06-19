@@ -25,7 +25,7 @@ else:
     print(f"{search_nb} n'existe pas dans le tableau")
 
 # Recherche dichotomique lorsque le tableau est trie
-""" 
+
 found = False
 begin=0
 end=len(numbers)-1
@@ -43,18 +43,5 @@ while(not(found) and begin>end):
 if(not(found)):
     print("Nombre inexistant ")
 
-"""
 
 
-#Question 1: Completer le code necessaire pour afficher la position de la valeur maximale dans numbers
-
-
-
-#Question 2: Completer le code necessaire pour afficher la position de la valeur minimale dans numbers
-
-
-
-#Question 3: Ecrire le code necessaire pour verifier si le tableau numbers est trie en ordre croissant
-
-
-#Question 4: Considerons que le tableau est trie en ordre decroissant. Implementer une methode de recherche dichotomique dans ce cas.
