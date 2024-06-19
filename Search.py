@@ -54,3 +54,7 @@ if(not(found)):
 
 
 
+#Question 3: Ecrire le code necessaire pour verifier si le tableau numbers est trie en ordre croissant
+
+
+#Question 4: Considerons que le tableau est trie en ordre decroissant. Implementer une methode de recherche dichotomique dans ce cas.
