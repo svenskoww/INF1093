@@ -12,7 +12,20 @@ print(numbers)
 # Lire la valeur a rechercher.
 search_nb = int(input("Quel nombre a chercher?"))
 
-# Recherche dichotomique
+# Recherche sequentielle
+
+position = -1
+for i in range(len(numbers)):
+    if(search_nb==numbers[i]):
+        position=i
+        break
+if(position>-1):
+    print(f"{search_nb} est a la position {position}")
+else:
+    print(f"{search_nb} n'existe pas dans le tableau")
+
+# Recherche dichotomique lorsque le tableau est trie
+""" 
 found = False
 begin=0
 end=len(numbers)-1
@@ -29,6 +42,9 @@ while(not(found) and begin>end):
             
 if(not(found)):
     print("Nombre inexistant ")
+
+"""
+
 
 #Question 1: Completer le code necessaire pour afficher la position de la valeur maximale dans numbers
 
